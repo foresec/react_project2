@@ -151,6 +151,19 @@ header button {
   justify-content: space-between;
 }
 
+.unactive{
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid #e2e2e2;
+
+  display: flex;
+  justify-content: space-between;
+
+  opacity: 30%;
+}
+
+
 .DiaryItem .emotion_img_wrapper {
   cursor: pointer;
   min-width: 120px;
@@ -201,6 +214,10 @@ header button {
 .DiaryItem .btn_wrapper {
   min-width: 70px;
 }
+
+
+
+
 
 /* DiaryEditor */
 
